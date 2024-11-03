@@ -1,0 +1,49 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Helvetica, sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+}
+.clearfix::after{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.container{
+    width: 1140px;
+    margin: 30px auto;
+    min-height: 300px;
+    overflow: auto;
+}
+.block-item{
+    box-sizing: border-box;
+    width: 32%;
+    background-color: #F8F8F8;
+    min-height: 200px;
+    float: left;
+    margin: 7px;
+    text-align: center;
+    padding: 15px;
+}
+.icon{
+    width: 71px;
+    height: 71px;
+    border: 2px solid #399;
+    border-radius: 50%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon i{
+    font-size: 30px;
+    color: #399;
+}
