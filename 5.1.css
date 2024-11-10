@@ -1,0 +1,14 @@
+h1{
+    color: limegreen;
+}
+@media (max-width: 768px){
+    h1{
+        color: darkorange;
+    }
+}
+@media (max-width:500px){
+    h1{
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}

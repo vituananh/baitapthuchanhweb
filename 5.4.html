@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>5. Bài 4</title>
+    <link rel="stylesheet" href="5.4.css">
+</head>
+<body>
+    <div class="header-container">
+        <header>
+            <div class="logo"<span class="highlight">LAP TRINH WEB</span>>-LOGO</div>
+            <nav>
+                <a href="#" class="mybutton">ABOUT</a>
+                <a href="#" class="mybutton">PRICING</a>
+                <a href="#" class="mybutton">CONTACT</a>
+            </nav>
+            <div class="mob-wrapper">
+                <div class="burgermenu"><i class="fa-solid fa-bars"></i></div>
+                <div class="mob-nav">
+                <a href="#" class="mybutton">ABOUT</a>
+                <a href="#" class="mybutton">PRICING</a>
+                <a href="#" class="mybutton">CONTACT</a>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="container">
+        <div class="col"><img src="img/image1@2x.png" alt="">
+        <p>Baranding: Lorem ipsum dolor sit amet <span class="highlight">elit</span>.</p>
+        </div>
+        <div class="col"><img src="img/image2@2x.png" alt="">
+            <p>Baranding: Lorem ipsum dolor sit amet.</p>
+            </div>
+        <div class="col"><img src="img/image3@2x.png" alt="">
+            <p>Baranding: Lorem ipsum dolor sit amet.</p>
+            </div>
+        <div class="col"><img src="img/image4@2x.png" alt="">
+            <p>Baranding: Lorem ipsum dolor sit amet.</p>
+            </div>
+        <div class="col hide-mobile"><img src="img/image5@2x.png" alt="">
+            <p>Baranding: Lorem ipsum dolor sit amet.</p>
+            </div>
+        <div class="col hide-mobile"><img src="img/image6@2x.png" alt="">
+            <p>Baranding: Lorem ipsum dolor sit amet.</p>
+            </div>
+        <div class="col hide-mobile"><img src="img/image7@2x.png" alt="">
+            <p>Baranding: Lorem ipsum dolor sit amet.</p>
+            </div>
+        <div class="col hide-mobile"><img src="img/image8@2x.png" alt="">
+            <p>Baranding: Lorem ipsum dolor sit amet.</p>
+            </div>
+        <div class="col hide-mobile"><img src="img/image9@2x.png" alt="">
+            <p>Baranding: Lorem ipsum dolor sit amet.</p>
+            </div>
+        <div class="col hide-destop-only"><img src="img/image10@2x.png" alt="">
+            <p>Baranding: Lorem ipsum dolor sit amet.</p>
+            </div>    
+    </div>
+    <script src="http://code.jquery.com/jquery-3.7.1.js" integrity="sha256-ekhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('.burgermenu').on('click',function (){
+                $('.mob-nav').toggle();
+            })
+        })
+    </script>
+</body>
+</html>

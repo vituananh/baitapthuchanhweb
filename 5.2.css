@@ -1,0 +1,35 @@
+.container{
+    background-color: rgb(43,26,147);
+    min-height: 500px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.col{
+    background-color: rgb(247,8,131);
+    min-height: 200px;
+    width: 30%;
+    margin-bottom: 40px;
+}
+.hide-destop-only{
+    display: none;
+}
+@media (max-width:768px){ 
+    .col{
+    
+        width: 45%;  
+    }
+    .hide-destop-only{
+        display: block;
+      }
+    }
+@media (max-width:400px){
+    .col{
+        width: 100%;
+    }
+    .hide-mobile{
+        display: none;
+    }
+}
